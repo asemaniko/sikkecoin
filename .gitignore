@@ -1,0 +1,34 @@
+src/*.exe
+src/sikkecoin
+src/sikkecoind
+src/test_sikkecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.sikkecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+sikkecoin-qt
+Sikkecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+sikkecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

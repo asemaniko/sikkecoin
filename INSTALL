@@ -1,0 +1,9 @@
+Building Sikkecoin
+
+See doc/readme-qt.rst for instructions on building Sikkecoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Sikkecoin.
+
+See doc/build-*.txt for instructions on building sikkecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Sikkecoin.
